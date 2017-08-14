@@ -48,6 +48,9 @@
                                 <rect key="frame" x="251" y="387" width="62" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Imagen"/>
+                                <connections>
+                                    <action selector="imagen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rJC-zO-S9d"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="btl-Bs-h9X">
                                 <rect key="frame" x="259" y="553" width="46" height="30"/>
@@ -72,6 +75,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
+                        <outlet property="Imagen" destination="Upa-a8-umT" id="lCi-qt-zKU"/>
                         <outlet property="texto1" destination="Hfm-fH-ixY" id="6Tx-5h-LWa"/>
                         <outlet property="texto2" destination="vvc-sq-6KR" id="SOu-KL-2sA"/>
                     </connections>
