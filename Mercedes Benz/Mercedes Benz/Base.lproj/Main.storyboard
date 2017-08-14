@@ -47,6 +47,9 @@
                                 <rect key="frame" x="259" y="553" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="QIC-YQ-vG7" kind="show" id="8Wp-Gy-iqH"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="00-mercedes-benz-vehicles-sl-roadster-designo-edition-r-231-2560x1372-1280x686.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Upa-a8-umT">
                                 <rect key="frame" x="27" y="357" width="167" height="90"/>
@@ -65,7 +68,35 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
+            <point key="canvasLocation" x="185" y="136"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="wMs-bF-Yga">
+            <objects>
+                <viewController id="QIC-YQ-vG7" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0id-Wu-Xxi"/>
+                        <viewControllerLayoutGuide type="bottom" id="2Mv-db-lBo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OKB-gm-AwO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M4w-4y-s9X">
+                                <rect key="frame" x="164" y="318" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="pq2-FE-uf8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tkv-n3-98c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="938" y="135"/>
         </scene>
     </scenes>
     <resources>
