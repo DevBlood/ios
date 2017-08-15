@@ -13,7 +13,7 @@
         <scene sceneID="UM7-hk-eLT">
             <objects>
                 <navigationController title="Vista 1" id="CsM-hL-Q2u" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="twq-aZ-wQF">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="twq-aZ-wQF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -103,7 +103,7 @@
         <!--Vista 2-->
         <scene sceneID="wMs-bF-Yga">
             <objects>
-                <viewController title="Vista 2" id="QIC-YQ-vG7" sceneMemberID="viewController">
+                <viewController title="Vista 2" id="QIC-YQ-vG7" customClass="Vista_2" customModule="Mercedes_Benz" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0id-Wu-Xxi"/>
                         <viewControllerLayoutGuide type="bottom" id="2Mv-db-lBo"/>
@@ -139,7 +139,7 @@
         <!--Vista 3-->
         <scene sceneID="3nk-eQ-V5s">
             <objects>
-                <viewController title="Vista 3" id="tYr-MS-V41" sceneMemberID="viewController">
+                <viewController title="Vista 3" id="tYr-MS-V41" customClass="Vista_3" customModule="Mercedes_Benz" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Owp-oE-Loy"/>
                         <viewControllerLayoutGuide type="bottom" id="Mu9-8b-e01"/>
@@ -175,7 +175,7 @@
         <!--Vista 4-->
         <scene sceneID="QVo-e3-crI">
             <objects>
-                <viewController title="Vista 4" id="Gi1-oU-u41" sceneMemberID="viewController">
+                <viewController title="Vista 4" id="Gi1-oU-u41" customClass="Vista_4" customModule="Mercedes_Benz" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yc5-gu-3zM"/>
                         <viewControllerLayoutGuide type="bottom" id="xeO-yk-BNn"/>
@@ -206,7 +206,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="b8F-Jc-XzC"/>
-        <segue reference="Tvl-BV-sb0"/>
-        <segue reference="Et9-Bl-YhK"/>
+        <segue reference="TT9-8y-2Lc"/>
+        <segue reference="pq2-FE-uf8"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F19A844CA4B867BD4AE62D9 /* libPods-Mercedes Benz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F2894928A2FC255B6AA0C1 /* libPods-Mercedes Benz.a */; };
+		EDBC0A881F4276BD002377AA /* Vista 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBC0A871F4276BD002377AA /* Vista 2.swift */; };
+		EDBC0A8A1F427721002377AA /* Vista 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBC0A891F427721002377AA /* Vista 3.swift */; };
+		EDBC0A8C1F427735002377AA /* Vista 4.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBC0A8B1F427735002377AA /* Vista 4.swift */; };
 		EDEE0D9C1F422E6F00AA4077 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEE0D9B1F422E6F00AA4077 /* AppDelegate.swift */; };
 		EDEE0D9E1F422E6F00AA4077 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEE0D9D1F422E6F00AA4077 /* ViewController.swift */; };
 		EDEE0DA11F422E6F00AA4077 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDEE0D9F1F422E6F00AA4077 /* Main.storyboard */; };
@@ -35,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03F2894928A2FC255B6AA0C1 /* libPods-Mercedes Benz.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mercedes Benz.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FB039A67530D2CFD152FEFC /* Pods-Mercedes Benz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mercedes Benz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mercedes Benz/Pods-Mercedes Benz.debug.xcconfig"; sourceTree = "<group>"; };
+		750BFE1C8E4C3AEE7FF0E509 /* Pods-Mercedes Benz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mercedes Benz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mercedes Benz/Pods-Mercedes Benz.release.xcconfig"; sourceTree = "<group>"; };
+		EDBC0A871F4276BD002377AA /* Vista 2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Vista 2.swift"; sourceTree = "<group>"; };
+		EDBC0A891F427721002377AA /* Vista 3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Vista 3.swift"; sourceTree = "<group>"; };
+		EDBC0A8B1F427735002377AA /* Vista 4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Vista 4.swift"; sourceTree = "<group>"; };
 		EDEE0D981F422E6F00AA4077 /* Mercedes Benz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mercedes Benz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDEE0D9B1F422E6F00AA4077 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDEE0D9D1F422E6F00AA4077 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F19A844CA4B867BD4AE62D9 /* libPods-Mercedes Benz.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +87,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		93566A9C08C92F1E2D659B7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FB039A67530D2CFD152FEFC /* Pods-Mercedes Benz.debug.xcconfig */,
+				750BFE1C8E4C3AEE7FF0E509 /* Pods-Mercedes Benz.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E04B6651A980BFC4A1E26042 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03F2894928A2FC255B6AA0C1 /* libPods-Mercedes Benz.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EDEE0D8F1F422E6F00AA4077 = {
 			isa = PBXGroup;
 			children = (
+				EDBC0A8B1F427735002377AA /* Vista 4.swift */,
+				EDBC0A891F427721002377AA /* Vista 3.swift */,
+				EDBC0A871F4276BD002377AA /* Vista 2.swift */,
 				EDEE0D9A1F422E6F00AA4077 /* Mercedes Benz */,
 				EDEE0DAF1F422E6F00AA4077 /* Mercedes BenzTests */,
 				EDEE0DBA1F422E6F00AA4077 /* Mercedes BenzUITests */,
 				EDEE0D991F422E6F00AA4077 /* Products */,
+				93566A9C08C92F1E2D659B7F /* Pods */,
+				E04B6651A980BFC4A1E26042 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDEE0DC01F422E6F00AA4077 /* Build configuration list for PBXNativeTarget "Mercedes Benz" */;
 			buildPhases = (
+				79E84274D0E6F0E786374DB3 /* [CP] Check Pods Manifest.lock */,
 				EDEE0D941F422E6F00AA4077 /* Sources */,
 				EDEE0D951F422E6F00AA4077 /* Frameworks */,
 				EDEE0D961F422E6F00AA4077 /* Resources */,
+				6B2084DD32292E2FD21D4F94 /* [CP] Embed Pods Frameworks */,
+				7D039132B1374A5FD874AC31 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,12 +305,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6B2084DD32292E2FD21D4F94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mercedes Benz/Pods-Mercedes Benz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79E84274D0E6F0E786374DB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mercedes Benz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D039132B1374A5FD874AC31 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mercedes Benz/Pods-Mercedes Benz-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mercedes Benz/Pods-Mercedes Benz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EDEE0D941F422E6F00AA4077 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDBC0A881F4276BD002377AA /* Vista 2.swift in Sources */,
 				EDEE0D9E1F422E6F00AA4077 /* ViewController.swift in Sources */,
+				EDBC0A8C1F427735002377AA /* Vista 4.swift in Sources */,
+				EDBC0A8A1F427721002377AA /* Vista 3.swift in Sources */,
 				EDEE0D9C1F422E6F00AA4077 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +518,7 @@
 		};
 		EDEE0DC11F422E6F00AA4077 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FB039A67530D2CFD152FEFC /* Pods-Mercedes Benz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 26MVNUVSGZ;
@@ -438,6 +532,7 @@
 		};
 		EDEE0DC21F422E6F00AA4077 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 750BFE1C8E4C3AEE7FF0E509 /* Pods-Mercedes Benz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 26MVNUVSGZ;
@@ -526,6 +621,7 @@
 				EDEE0DC21F422E6F00AA4077 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDEE0DC31F422E6F00AA4077 /* Build configuration list for PBXNativeTarget "Mercedes BenzTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +630,7 @@
 				EDEE0DC51F422E6F00AA4077 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDEE0DC61F422E6F00AA4077 /* Build configuration list for PBXNativeTarget "Mercedes BenzUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +639,7 @@
 				EDEE0DC81F422E6F00AA4077 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
