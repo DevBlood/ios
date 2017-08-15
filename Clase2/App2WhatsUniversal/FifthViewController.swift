@@ -16,6 +16,14 @@ class FifthViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func alerta5(_ sender: Any) {
+        let alertController = UIAlertController(title: "Alerta", message:
+            "Hola, mundo!", preferredStyle: UIAlertControllerStyle.alert)
+        alertController.addAction(UIAlertAction(title: "Cerrar", style: UIAlertActionStyle.default,handler: nil))
+        
+        self.present(alertController, animated: true, completion: nil)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
