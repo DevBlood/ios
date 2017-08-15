@@ -1,6 +1,6 @@
 //
-//  Vista 2.swift
-//  BenzAppletv
+//  FourthViewController.swift
+//  App2MenuWhats
 //
 //  Created by Fernando Lopez Llanos on 8/15/17.
 //  Copyright © 2017 Fernando Lopez Llanos. All rights reserved.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Vista_2: UIViewController {
+class FourthViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +20,6 @@ class Vista_2: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
     
 
     /*
