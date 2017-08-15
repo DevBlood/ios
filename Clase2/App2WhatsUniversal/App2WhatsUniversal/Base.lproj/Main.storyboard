@@ -170,6 +170,14 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WMa-jP-Jqt">
+                                <rect key="frame" x="164" y="132" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Alerta"/>
+                                <connections>
+                                    <action selector="alerta:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="ves-jd-tPE"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.82955002789999999" green="1" blue="0.90286959739999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
