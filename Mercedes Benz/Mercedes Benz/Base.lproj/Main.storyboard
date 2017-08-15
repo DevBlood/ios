@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="CsM-hL-Q2u">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,10 +9,26 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Vista 1-->
+        <scene sceneID="UM7-hk-eLT">
+            <objects>
+                <navigationController title="Vista 1" id="CsM-hL-Q2u" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="twq-aZ-wQF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Et9-Bl-YhK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZCN-vW-LAD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-601" y="135"/>
+        </scene>
+        <!--Vista 1-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Mercedes_Benz" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Vista 1" id="BYZ-38-t0r" customClass="ViewController" customModule="Mercedes_Benz" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -74,6 +90,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="5ZV-VE-afW"/>
                     <connections>
                         <outlet property="texto1" destination="Hfm-fH-ixY" id="6Tx-5h-LWa"/>
                         <outlet property="texto2" destination="vvc-sq-6KR" id="SOu-KL-2sA"/>
@@ -83,10 +100,10 @@
             </objects>
             <point key="canvasLocation" x="184.80000000000001" y="135.38230884557723"/>
         </scene>
-        <!--View Controller-->
+        <!--Vista 2-->
         <scene sceneID="wMs-bF-Yga">
             <objects>
-                <viewController id="QIC-YQ-vG7" sceneMemberID="viewController">
+                <viewController title="Vista 2" id="QIC-YQ-vG7" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0id-Wu-Xxi"/>
                         <viewControllerLayoutGuide type="bottom" id="2Mv-db-lBo"/>
@@ -103,6 +120,14 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="pq2-FE-uf8"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IrY-Ji-952">
+                                <rect key="frame" x="271" y="552" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="tYr-MS-V41" kind="show" id="TT9-8y-2Lc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -111,8 +136,77 @@
             </objects>
             <point key="canvasLocation" x="938" y="135"/>
         </scene>
+        <!--Vista 3-->
+        <scene sceneID="3nk-eQ-V5s">
+            <objects>
+                <viewController title="Vista 3" id="tYr-MS-V41" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Owp-oE-Loy"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mu9-8b-e01"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Nmj-Wb-cXQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UDf-8i-2bO">
+                                <rect key="frame" x="239" y="510" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="Gi1-oU-u41" kind="show" id="6BE-kU-DS7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tYO-z8-SwU">
+                                <rect key="frame" x="145" y="285" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back2"/>
+                                <connections>
+                                    <segue destination="QIC-YQ-vG7" kind="show" id="b8F-Jc-XzC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lfa-lK-ckn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1641" y="135"/>
+        </scene>
+        <!--Vista 4-->
+        <scene sceneID="QVo-e3-crI">
+            <objects>
+                <viewController title="Vista 4" id="Gi1-oU-u41" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yc5-gu-3zM"/>
+                        <viewControllerLayoutGuide type="bottom" id="xeO-yk-BNn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qop-iy-d22">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b5C-WS-7PL">
+                                <rect key="frame" x="118" y="171" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="tYr-MS-V41" kind="show" id="Tvl-BV-sb0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Umi-yg-6Mk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2369" y="135"/>
+        </scene>
     </scenes>
     <resources>
         <image name="00-mercedes-benz-vehicles-sl-roadster-designo-edition-r-231-2560x1372-1280x686.jpg" width="1280" height="686"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="b8F-Jc-XzC"/>
+        <segue reference="Tvl-BV-sb0"/>
+        <segue reference="Et9-Bl-YhK"/>
+    </inferredMetricsTieBreakers>
 </document>
