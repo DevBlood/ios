@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED20CF1D1F44A079004D9A71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED20CF1C1F44A079004D9A71 /* AppDelegate.swift */; };
+		ED20CF1F1F44A079004D9A71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED20CF1E1F44A079004D9A71 /* ViewController.swift */; };
+		ED20CF221F44A079004D9A71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED20CF201F44A079004D9A71 /* Main.storyboard */; };
+		ED20CF241F44A079004D9A71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED20CF231F44A079004D9A71 /* Assets.xcassets */; };
+		ED20CF271F44A079004D9A71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED20CF251F44A079004D9A71 /* LaunchScreen.storyboard */; };
+		ED20CF321F44A079004D9A71 /* IOS10FadeMusicTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED20CF311F44A079004D9A71 /* IOS10FadeMusicTutorialTests.swift */; };
+		ED20CF3D1F44A079004D9A71 /* IOS10FadeMusicTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED20CF3C1F44A079004D9A71 /* IOS10FadeMusicTutorialUITests.swift */; };
+		ED20CF4B1F44A590004D9A71 /* River of deceit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED20CF4A1F44A590004D9A71 /* River of deceit.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED20CF2E1F44A079004D9A71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED20CF111F44A079004D9A71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED20CF181F44A079004D9A71;
+			remoteInfo = IOS10FadeMusicTutorial;
+		};
+		ED20CF391F44A079004D9A71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED20CF111F44A079004D9A71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED20CF181F44A079004D9A71;
+			remoteInfo = IOS10FadeMusicTutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED20CF191F44A079004D9A71 /* IOS10FadeMusicTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS10FadeMusicTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED20CF1C1F44A079004D9A71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED20CF1E1F44A079004D9A71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED20CF211F44A079004D9A71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED20CF231F44A079004D9A71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED20CF261F44A079004D9A71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED20CF281F44A079004D9A71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED20CF2D1F44A079004D9A71 /* IOS10FadeMusicTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS10FadeMusicTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED20CF311F44A079004D9A71 /* IOS10FadeMusicTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS10FadeMusicTutorialTests.swift; sourceTree = "<group>"; };
+		ED20CF331F44A079004D9A71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED20CF381F44A079004D9A71 /* IOS10FadeMusicTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS10FadeMusicTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED20CF3C1F44A079004D9A71 /* IOS10FadeMusicTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS10FadeMusicTutorialUITests.swift; sourceTree = "<group>"; };
+		ED20CF3E1F44A079004D9A71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED20CF4A1F44A590004D9A71 /* River of deceit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "River of deceit.mp3"; path = "../../../../Documents/Musica/Varias/River of deceit.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED20CF161F44A079004D9A71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED20CF2A1F44A079004D9A71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED20CF351F44A079004D9A71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED20CF101F44A079004D9A71 = {
+			isa = PBXGroup;
+			children = (
+				ED20CF1B1F44A079004D9A71 /* IOS10FadeMusicTutorial */,
+				ED20CF301F44A079004D9A71 /* IOS10FadeMusicTutorialTests */,
+				ED20CF3B1F44A079004D9A71 /* IOS10FadeMusicTutorialUITests */,
+				ED20CF1A1F44A079004D9A71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED20CF1A1F44A079004D9A71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED20CF191F44A079004D9A71 /* IOS10FadeMusicTutorial.app */,
+				ED20CF2D1F44A079004D9A71 /* IOS10FadeMusicTutorialTests.xctest */,
+				ED20CF381F44A079004D9A71 /* IOS10FadeMusicTutorialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED20CF1B1F44A079004D9A71 /* IOS10FadeMusicTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				ED20CF1C1F44A079004D9A71 /* AppDelegate.swift */,
+				ED20CF1E1F44A079004D9A71 /* ViewController.swift */,
+				ED20CF201F44A079004D9A71 /* Main.storyboard */,
+				ED20CF4A1F44A590004D9A71 /* River of deceit.mp3 */,
+				ED20CF231F44A079004D9A71 /* Assets.xcassets */,
+				ED20CF251F44A079004D9A71 /* LaunchScreen.storyboard */,
+				ED20CF281F44A079004D9A71 /* Info.plist */,
+			);
+			path = IOS10FadeMusicTutorial;
+			sourceTree = "<group>";
+		};
+		ED20CF301F44A079004D9A71 /* IOS10FadeMusicTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED20CF311F44A079004D9A71 /* IOS10FadeMusicTutorialTests.swift */,
+				ED20CF331F44A079004D9A71 /* Info.plist */,
+			);
+			path = IOS10FadeMusicTutorialTests;
+			sourceTree = "<group>";
+		};
+		ED20CF3B1F44A079004D9A71 /* IOS10FadeMusicTutorialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED20CF3C1F44A079004D9A71 /* IOS10FadeMusicTutorialUITests.swift */,
+				ED20CF3E1F44A079004D9A71 /* Info.plist */,
+			);
+			path = IOS10FadeMusicTutorialUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED20CF181F44A079004D9A71 /* IOS10FadeMusicTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED20CF411F44A079004D9A71 /* Build configuration list for PBXNativeTarget "IOS10FadeMusicTutorial" */;
+			buildPhases = (
+				ED20CF151F44A079004D9A71 /* Sources */,
+				ED20CF161F44A079004D9A71 /* Frameworks */,
+				ED20CF171F44A079004D9A71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOS10FadeMusicTutorial;
+			productName = IOS10FadeMusicTutorial;
+			productReference = ED20CF191F44A079004D9A71 /* IOS10FadeMusicTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED20CF2C1F44A079004D9A71 /* IOS10FadeMusicTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED20CF441F44A079004D9A71 /* Build configuration list for PBXNativeTarget "IOS10FadeMusicTutorialTests" */;
+			buildPhases = (
+				ED20CF291F44A079004D9A71 /* Sources */,
+				ED20CF2A1F44A079004D9A71 /* Frameworks */,
+				ED20CF2B1F44A079004D9A71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED20CF2F1F44A079004D9A71 /* PBXTargetDependency */,
+			);
+			name = IOS10FadeMusicTutorialTests;
+			productName = IOS10FadeMusicTutorialTests;
+			productReference = ED20CF2D1F44A079004D9A71 /* IOS10FadeMusicTutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED20CF371F44A079004D9A71 /* IOS10FadeMusicTutorialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED20CF471F44A079004D9A71 /* Build configuration list for PBXNativeTarget "IOS10FadeMusicTutorialUITests" */;
+			buildPhases = (
+				ED20CF341F44A079004D9A71 /* Sources */,
+				ED20CF351F44A079004D9A71 /* Frameworks */,
+				ED20CF361F44A079004D9A71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED20CF3A1F44A079004D9A71 /* PBXTargetDependency */,
+			);
+			name = IOS10FadeMusicTutorialUITests;
+			productName = IOS10FadeMusicTutorialUITests;
+			productReference = ED20CF381F44A079004D9A71 /* IOS10FadeMusicTutorialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED20CF111F44A079004D9A71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Fernando Lopez Llanos";
+				TargetAttributes = {
+					ED20CF181F44A079004D9A71 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 26MVNUVSGZ;
+						ProvisioningStyle = Automatic;
+					};
+					ED20CF2C1F44A079004D9A71 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 26MVNUVSGZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED20CF181F44A079004D9A71;
+					};
+					ED20CF371F44A079004D9A71 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 26MVNUVSGZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED20CF181F44A079004D9A71;
+					};
+				};
+			};
+			buildConfigurationList = ED20CF141F44A079004D9A71 /* Build configuration list for PBXProject "IOS10FadeMusicTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED20CF101F44A079004D9A71;
+			productRefGroup = ED20CF1A1F44A079004D9A71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED20CF181F44A079004D9A71 /* IOS10FadeMusicTutorial */,
+				ED20CF2C1F44A079004D9A71 /* IOS10FadeMusicTutorialTests */,
+				ED20CF371F44A079004D9A71 /* IOS10FadeMusicTutorialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED20CF171F44A079004D9A71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED20CF4B1F44A590004D9A71 /* River of deceit.mp3 in Resources */,
+				ED20CF271F44A079004D9A71 /* LaunchScreen.storyboard in Resources */,
+				ED20CF241F44A079004D9A71 /* Assets.xcassets in Resources */,
+				ED20CF221F44A079004D9A71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED20CF2B1F44A079004D9A71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED20CF361F44A079004D9A71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED20CF151F44A079004D9A71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED20CF1F1F44A079004D9A71 /* ViewController.swift in Sources */,
+				ED20CF1D1F44A079004D9A71 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED20CF291F44A079004D9A71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED20CF321F44A079004D9A71 /* IOS10FadeMusicTutorialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED20CF341F44A079004D9A71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED20CF3D1F44A079004D9A71 /* IOS10FadeMusicTutorialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED20CF2F1F44A079004D9A71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED20CF181F44A079004D9A71 /* IOS10FadeMusicTutorial */;
+			targetProxy = ED20CF2E1F44A079004D9A71 /* PBXContainerItemProxy */;
+		};
+		ED20CF3A1F44A079004D9A71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED20CF181F44A079004D9A71 /* IOS10FadeMusicTutorial */;
+			targetProxy = ED20CF391F44A079004D9A71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED20CF201F44A079004D9A71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED20CF211F44A079004D9A71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED20CF251F44A079004D9A71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED20CF261F44A079004D9A71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED20CF3F1F44A079004D9A71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED20CF401F44A079004D9A71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED20CF421F44A079004D9A71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 26MVNUVSGZ;
+				INFOPLIST_FILE = IOS10FadeMusicTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caliente.IOS10FadeMusicTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ED20CF431F44A079004D9A71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 26MVNUVSGZ;
+				INFOPLIST_FILE = IOS10FadeMusicTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caliente.IOS10FadeMusicTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		ED20CF451F44A079004D9A71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 26MVNUVSGZ;
+				INFOPLIST_FILE = IOS10FadeMusicTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caliente.IOS10FadeMusicTutorialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOS10FadeMusicTutorial.app/IOS10FadeMusicTutorial";
+			};
+			name = Debug;
+		};
+		ED20CF461F44A079004D9A71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 26MVNUVSGZ;
+				INFOPLIST_FILE = IOS10FadeMusicTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caliente.IOS10FadeMusicTutorialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOS10FadeMusicTutorial.app/IOS10FadeMusicTutorial";
+			};
+			name = Release;
+		};
+		ED20CF481F44A079004D9A71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 26MVNUVSGZ;
+				INFOPLIST_FILE = IOS10FadeMusicTutorialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caliente.IOS10FadeMusicTutorialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = IOS10FadeMusicTutorial;
+			};
+			name = Debug;
+		};
+		ED20CF491F44A079004D9A71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 26MVNUVSGZ;
+				INFOPLIST_FILE = IOS10FadeMusicTutorialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caliente.IOS10FadeMusicTutorialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = IOS10FadeMusicTutorial;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED20CF141F44A079004D9A71 /* Build configuration list for PBXProject "IOS10FadeMusicTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED20CF3F1F44A079004D9A71 /* Debug */,
+				ED20CF401F44A079004D9A71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED20CF411F44A079004D9A71 /* Build configuration list for PBXNativeTarget "IOS10FadeMusicTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED20CF421F44A079004D9A71 /* Debug */,
+				ED20CF431F44A079004D9A71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED20CF441F44A079004D9A71 /* Build configuration list for PBXNativeTarget "IOS10FadeMusicTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED20CF451F44A079004D9A71 /* Debug */,
+				ED20CF461F44A079004D9A71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED20CF471F44A079004D9A71 /* Build configuration list for PBXNativeTarget "IOS10FadeMusicTutorialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED20CF481F44A079004D9A71 /* Debug */,
+				ED20CF491F44A079004D9A71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED20CF111F44A079004D9A71 /* Project object */;
+}
