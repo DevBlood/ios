@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDA686081F45145400C9CB33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA686071F45145400C9CB33 /* AppDelegate.swift */; };
+		EDA6860A1F45145400C9CB33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA686091F45145400C9CB33 /* ViewController.swift */; };
+		EDA6860D1F45145400C9CB33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA6860B1F45145400C9CB33 /* Main.storyboard */; };
+		EDA6860F1F45145400C9CB33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA6860E1F45145400C9CB33 /* Assets.xcassets */; };
+		EDA686121F45145400C9CB33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA686101F45145400C9CB33 /* LaunchScreen.storyboard */; };
+		EDA6861D1F45145500C9CB33 /* IosCronometroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA6861C1F45145500C9CB33 /* IosCronometroTests.swift */; };
+		EDA686281F45145500C9CB33 /* IosCronometroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA686271F45145500C9CB33 /* IosCronometroUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDA686191F45145500C9CB33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDA685FC1F45145400C9CB33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDA686031F45145400C9CB33;
+			remoteInfo = IosCronometro;
+		};
+		EDA686241F45145500C9CB33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDA685FC1F45145400C9CB33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDA686031F45145400C9CB33;
+			remoteInfo = IosCronometro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDA686041F45145400C9CB33 /* IosCronometro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IosCronometro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA686071F45145400C9CB33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDA686091F45145400C9CB33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDA6860C1F45145400C9CB33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDA6860E1F45145400C9CB33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDA686111F45145400C9CB33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDA686131F45145400C9CB33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA686181F45145500C9CB33 /* IosCronometroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IosCronometroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA6861C1F45145500C9CB33 /* IosCronometroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosCronometroTests.swift; sourceTree = "<group>"; };
+		EDA6861E1F45145500C9CB33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA686231F45145500C9CB33 /* IosCronometroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IosCronometroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA686271F45145500C9CB33 /* IosCronometroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosCronometroUITests.swift; sourceTree = "<group>"; };
+		EDA686291F45145500C9CB33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDA686011F45145400C9CB33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA686151F45145500C9CB33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA686201F45145500C9CB33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDA685FB1F45145400C9CB33 = {
+			isa = PBXGroup;
+			children = (
+				EDA686061F45145400C9CB33 /* IosCronometro */,
+				EDA6861B1F45145500C9CB33 /* IosCronometroTests */,
+				EDA686261F45145500C9CB33 /* IosCronometroUITests */,
+				EDA686051F45145400C9CB33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDA686051F45145400C9CB33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDA686041F45145400C9CB33 /* IosCronometro.app */,
+				EDA686181F45145500C9CB33 /* IosCronometroTests.xctest */,
+				EDA686231F45145500C9CB33 /* IosCronometroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDA686061F45145400C9CB33 /* IosCronometro */ = {
+			isa = PBXGroup;
+			children = (
+				EDA686071F45145400C9CB33 /* AppDelegate.swift */,
+				EDA686091F45145400C9CB33 /* ViewController.swift */,
+				EDA6860B1F45145400C9CB33 /* Main.storyboard */,
+				EDA6860E1F45145400C9CB33 /* Assets.xcassets */,
+				EDA686101F45145400C9CB33 /* LaunchScreen.storyboard */,
+				EDA686131F45145400C9CB33 /* Info.plist */,
+			);
+			path = IosCronometro;
+			sourceTree = "<group>";
+		};
+		EDA6861B1F45145500C9CB33 /* IosCronometroTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDA6861C1F45145500C9CB33 /* IosCronometroTests.swift */,
+				EDA6861E1F45145500C9CB33 /* Info.plist */,
+			);
+			path = IosCronometroTests;
+			sourceTree = "<group>";
+		};
+		EDA686261F45145500C9CB33 /* IosCronometroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDA686271F45145500C9CB33 /* IosCronometroUITests.swift */,
+				EDA686291F45145500C9CB33 /* Info.plist */,
+			);
+			path = IosCronometroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDA686031F45145400C9CB33 /* IosCronometro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA6862C1F45145500C9CB33 /* Build configuration list for PBXNativeTarget "IosCronometro" */;
+			buildPhases = (
+				EDA686001F45145400C9CB33 /* Sources */,
+				EDA686011F45145400C9CB33 /* Frameworks */,
+				EDA686021F45145400C9CB33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IosCronometro;
+			productName = IosCronometro;
+			productReference = EDA686041F45145400C9CB33 /* IosCronometro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDA686171F45145500C9CB33 /* IosCronometroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA6862F1F45145500C9CB33 /* Build configuration list for PBXNativeTarget "IosCronometroTests" */;
+			buildPhases = (
+				EDA686141F45145500C9CB33 /* Sources */,
+				EDA686151F45145500C9CB33 /* Frameworks */,
+				EDA686161F45145500C9CB33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDA6861A1F45145500C9CB33 /* PBXTargetDependency */,
+			);
+			name = IosCronometroTests;
+			productName = IosCronometroTests;
+			productReference = EDA686181F45145500C9CB33 /* IosCronometroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDA686221F45145500C9CB33 /* IosCronometroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA686321F45145500C9CB33 /* Build configuration list for PBXNativeTarget "IosCronometroUITests" */;
+			buildPhases = (
+				EDA6861F1F45145500C9CB33 /* Sources */,
+				EDA686201F45145500C9CB33 /* Frameworks */,
+				EDA686211F45145500C9CB33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDA686251F45145500C9CB33 /* PBXTargetDependency */,
+			);
+			name = IosCronometroUITests;
+			productName = IosCronometroUITests;
+			productReference = EDA686231F45145500C9CB33 /* IosCronometroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDA685FC1F45145400C9CB33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Fernando Lopez Llanos";
+				TargetAttributes = {
+					EDA686031F45145400C9CB33 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 26MVNUVSGZ;
+						ProvisioningStyle = Automatic;
+					};
+					EDA686171F45145500C9CB33 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 26MVNUVSGZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EDA686031F45145400C9CB33;
+					};
+					EDA686221F45145500C9CB33 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 26MVNUVSGZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EDA686031F45145400C9CB33;
+					};
+				};
+			};
+			buildConfigurationList = EDA685FF1F45145400C9CB33 /* Build configuration list for PBXProject "IosCronometro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDA685FB1F45145400C9CB33;
+			productRefGroup = EDA686051F45145400C9CB33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDA686031F45145400C9CB33 /* IosCronometro */,
+				EDA686171F45145500C9CB33 /* IosCronometroTests */,
+				EDA686221F45145500C9CB33 /* IosCronometroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDA686021F45145400C9CB33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA686121F45145400C9CB33 /* LaunchScreen.storyboard in Resources */,
+				EDA6860F1F45145400C9CB33 /* Assets.xcassets in Resources */,
+				EDA6860D1F45145400C9CB33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA686161F45145500C9CB33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA686211F45145500C9CB33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDA686001F45145400C9CB33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA6860A1F45145400C9CB33 /* ViewController.swift in Sources */,
+				EDA686081F45145400C9CB33 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA686141F45145500C9CB33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA6861D1F45145500C9CB33 /* IosCronometroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA6861F1F45145500C9CB33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA686281F45145500C9CB33 /* IosCronometroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDA6861A1F45145500C9CB33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDA686031F45145400C9CB33 /* IosCronometro */;
+			targetProxy = EDA686191F45145500C9CB33 /* PBXContainerItemProxy */;
+		};
+		EDA686251F45145500C9CB33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDA686031F45145400C9CB33 /* IosCronometro */;
+			targetProxy = EDA686241F45145500C9CB33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDA6860B1F45145400C9CB33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDA6860C1F45145400C9CB33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDA686101F45145400C9CB33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDA686111F45145400C9CB33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDA6862A1F45145500C9CB33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDA6862B1F45145500C9CB33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDA6862D1F45145500C9CB33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 26MVNUVSGZ;
+				INFOPLIST_FILE = IosCronometro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caliente.IosCronometro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EDA6862E1F45145500C9CB33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 26MVNUVSGZ;
+				INFOPLIST_FILE = IosCronometro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caliente.IosCronometro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EDA686301F45145500C9CB33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 26MVNUVSGZ;
+				INFOPLIST_FILE = IosCronometroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caliente.IosCronometroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IosCronometro.app/IosCronometro";
+			};
+			name = Debug;
+		};
+		EDA686311F45145500C9CB33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 26MVNUVSGZ;
+				INFOPLIST_FILE = IosCronometroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caliente.IosCronometroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IosCronometro.app/IosCronometro";
+			};
+			name = Release;
+		};
+		EDA686331F45145500C9CB33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 26MVNUVSGZ;
+				INFOPLIST_FILE = IosCronometroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caliente.IosCronometroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = IosCronometro;
+			};
+			name = Debug;
+		};
+		EDA686341F45145500C9CB33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 26MVNUVSGZ;
+				INFOPLIST_FILE = IosCronometroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caliente.IosCronometroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = IosCronometro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDA685FF1F45145400C9CB33 /* Build configuration list for PBXProject "IosCronometro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA6862A1F45145500C9CB33 /* Debug */,
+				EDA6862B1F45145500C9CB33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA6862C1F45145500C9CB33 /* Build configuration list for PBXNativeTarget "IosCronometro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA6862D1F45145500C9CB33 /* Debug */,
+				EDA6862E1F45145500C9CB33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDA6862F1F45145500C9CB33 /* Build configuration list for PBXNativeTarget "IosCronometroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA686301F45145500C9CB33 /* Debug */,
+				EDA686311F45145500C9CB33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDA686321F45145500C9CB33 /* Build configuration list for PBXNativeTarget "IosCronometroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA686331F45145500C9CB33 /* Debug */,
+				EDA686341F45145500C9CB33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDA685FC1F45145400C9CB33 /* Project object */;
+}
