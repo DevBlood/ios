@@ -21,8 +21,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="moT-T9-Boe">
+                                <rect key="frame" x="164" y="491" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Girar"/>
+                                <connections>
+                                    <action selector="rotar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ACN-18-Gbe"/>
+                                </connections>
+                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Baseball" translatesAutoresizingMaskIntoConstraints="NO" id="jtR-v3-tcL">
-                                <rect key="frame" x="49" y="235" width="55" height="57"/>
+                                <rect key="frame" x="160" y="305" width="55" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -30,6 +38,7 @@
                     </view>
                     <connections>
                         <outlet property="imageView" destination="jtR-v3-tcL" id="8Sb-Na-A8h"/>
+                        <outlet property="rotar" destination="moT-T9-Boe" id="z0X-Lb-2LT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
