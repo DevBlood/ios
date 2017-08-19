@@ -1,16 +1,17 @@
 //
 //  ViewController.swift
-//  AppClase4GuardarPalabre
+//  App5PersistenciaDatos
 //
-//  Created by Fernando Lopez Llanos on 8/17/17.
+//  Created by Fernando Lopez Llanos on 8/18/17.
 //  Copyright © 2017 Fernando Lopez Llanos. All rights reserved.
 //
 
 import UIKit
-import CoreData
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var Lista: UIBarButtonItem!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
